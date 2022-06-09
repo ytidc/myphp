@@ -46,7 +46,7 @@ if ($_GET['v'] == '3.2.2'){
 // $json['rlueurl2'][]=array("title"=>'104个笔趣阁（共104个源）',"value"=>'https://gitee.com/z507525872/book-source/raw/master/104bqg.json');
 // $json['rlueurl2'][]=["title"=>'2021-08-13更新小说书源（共52个源）',"value"=>'https://shuyuan.miaogongzi.net/shuyuan/1628926088.json'];
 // $json['rlueurl2'][]=["title"=>'2021-08-27更新漫画源（共108个源）',"value"=>'https://haxc.coding.net/p/booksrc/d/booksrc/git/raw/master/Book3.0Source.json'];
-//  require_once 'rca4.php';  
-//     echo Encrypted("sm",json_encode($json,JSON_UNESCAPED_UNICODE));
- echo json_encode($json,JSON_UNESCAPED_UNICODE);
+ require_once 'rca4.php';  
+    echo Encrypted("sm",json_encode($json,JSON_UNESCAPED_UNICODE));
+// echo json_encode($json,JSON_UNESCAPED_UNICODE);
 ?>
