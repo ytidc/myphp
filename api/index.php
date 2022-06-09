@@ -1,6 +1,5 @@
 <?php
 error_reporting(E_ERROR);ini_set("display_errors","Off");
-echo $_GET['t'];
   
 switch ($_GET['t']){
   case '阅读':
