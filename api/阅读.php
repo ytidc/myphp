@@ -17,7 +17,8 @@ $json['isforceImprot'] = false; //是否强制更新书源
 $json['gmail']='fengyuecanzhu@gmail.com';//邮箱
 $json['rlDyys']='http://yunjuw.cn/'; //友情链接
 $json['guanwang']='https://wwc.lanzouj.com/iKruv04p3m2h'; //官网地址
- $json['rlueurl']='https://shuyuan.miaogongzi.net/shuyuan/1653743731.json'; //书源规则
+// $json['rlueurl']='http://sy.huimaojia.com/?t=1379'; //书源规则
+$json['rlueurl']='https://shuyuan.mgz6.cc/shuyuan/b08da8b42cfd348d6b94930a74aea557.json'; //书源规则
 //$json['rlueurl']='https://alynpakzmb.cdn.bspapp.com/ALYNPAKZMB-8a8ac2b1-e7af-4495-b927-58fd6a5c372b/722f2f88-51a9-4d85-b75d-88ba065c0a0d.png'; //书源规则
 $json['Notice']='fffffffffffff'; //公告内容
 $json['NoticeTime'] = -1; //    -1，关闭公告  0，手动关闭公告 大于0 定时关闭公告
